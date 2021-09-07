@@ -1,0 +1,726 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+@font-face {
+  font-family: IcoFont;
+  font-weight: 400;
+  font-style: Regular;
+  src: url(../fonts/icofont.woff2) format("woff2"), url(../fonts/icofont.woff) format("woff")
+}
+
+
+
+body {
+  margin: 0;
+  font-family:'Cairo';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+/*  ======================================== START NAVBAR =========================================  */
+
+
+.navbar {
+  background-color: #fff !important;
+  margin: 10px 0;
+}
+
+
+.navbar .navbar-brand {
+  font-size: 31px;
+  line-height: 21px;
+  color: #12214f !important;
+  font-weight: 700;
+}
+
+.navbar .navbar-brand:hover {
+  color: #153fbb !important;
+}
+
+.navbar-nav {
+  margin-right: 150px;
+}
+
+.nav-item a {
+  font-size: 13px !important;
+  color: rgb(0, 0, 0) !important;
+  transition: all .2s ease-in-out;
+  border-radius: 14px;
+}
+
+.nav-item a:hover {
+  background-color: #00a197;
+  color: #fff !important;
+}
+
+.sochial {
+  margin-right: 39px;
+}
+
+.sochial .nav-link:nth-of-type(1) {
+  background-color: #0d6efd;
+  width: 32px;
+  height: 32px;
+  font-size: 19px !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sochial .nav-link:nth-of-type(1):hover {
+  background-color: #011f49d3;
+
+}
+
+.sochial .nav-link:nth-of-type(2) {
+  background-color: #49B1FB;
+  width: 32px;
+  height: 32px;
+  font-size: 19px !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sochial .nav-link:nth-of-type(2):hover {
+  background-color: #004679d3;
+
+}
+
+.sochial .nav-link:nth-of-type(3) {
+  background-color: #6FEB7C;
+  width: 32px;
+  height: 32px;
+  font-size: 19px !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sochial .nav-link:nth-of-type(3):hover {
+  background-color: #52c55e;
+}
+
+.sochial .nav-link:nth-of-type(4) {
+  background-color: #F05CA3;
+  width: 32px;
+  height: 32px;
+  font-size: 19px !important;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sochial .nav-link:nth-of-type(4):hover {
+  background-color: #c44a85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ======================================== END NAVBAR =========================================  */
+
+
+
+
+
+
+
+/* <!-- ======================================== START HEADER ========================================= --> */
+
+
+
+
+
+
+.header {
+  background-image: url(../img/HED2.34bfde0f.png);
+  min-height: 721px;
+  background-repeat: no-repeat;
+  background-position: 42% 100%;
+}
+
+.learn {
+  font-size: 18px;
+  line-height: 27px;
+  color: #12214f;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.start-now {
+  border-radius: 18px;
+  background-image: linear-gradient(90deg, #035b55, #00a197);
+}
+
+.start-now:hover {
+  background-image: linear-gradient(90deg, #2eece0, #00a197);
+
+}
+
+
+/* <!-- ======================================== END HEADER ========================================= --> */
+
+
+
+/* <!-- ======================================== START CONTAINER ========================================= --> */
+
+
+
+.our-platform h2 {
+  font-size: 32px;
+  color: #0b0e30;
+}
+
+.our-platform h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.ability {
+  background-color: #6FC191;
+  background-image: url(../img/download\ \(1\).png);
+  height: 107px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 17px;
+}
+
+.knowledge {
+  background-color: #EC774C;
+  background-image: url(../img/download\ \(2\).png);
+  height: 107px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 17px;
+}
+
+
+.career {
+  background-color: #EBC04A;
+  background-image: url(../img/download\ \(3\).png);
+  height: 107px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 17px;
+}
+
+.order {
+  background-color: #72CFE7;
+  background-image: url(../img/download\ \(4\).png);
+  height: 107px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 0 17px;
+}
+
+.img-card {
+  width: 162px;
+  height: 162px;
+  border-radius: 81px;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px 0 hsl(0deg 0% 76% / 32%), -1px -1px 15px 0 hsl(0deg 0% 76% / 32%);
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.img-content h2 {
+  font-weight: 700 !important;
+  color: #423380;
+  font-size: 25px;
+}
+
+.img-content p {
+  color: #0f0f32;
+  font-size: 15;
+  line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- ======================================== END CONTAINER ========================================= --> */
+
+
+/* <!-- ======================================== start register ========================================= --> */
+
+.register-ability {
+  background-image: url(../img/development.758cd21d.png);
+  min-height: 300px;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(17, 114, 138, .050980392156862744);
+}
+
+.devolpe-data button {
+  min-height: 37px;
+  border-radius: 5px;
+  background-color: #05337d;
+  min-width: 170px;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  border: 0;
+}
+
+.devolpe-data button:hover {
+  background-color: #031a3f;
+}
+
+
+
+
+
+
+/* <!-- ========================================  end register ========================================= --> */
+
+
+
+
+/* <!-- ======================================== start courses ========================================= --> */
+
+
+.head-titel {
+  background-color: #1a506b;
+
+}
+
+.head-titel h5 a {
+  text-decoration: none;
+}
+
+.live-day p {
+  font-size: 15px;
+}
+
+.live-day p i {
+  color: #00988f;
+}
+
+.main-course h5 {
+  font-weight: 700 !important;
+}
+
+.overlay2 {
+  background-color: rgba(26, 80, 107, .9254901960784314);
+  color: #fff;
+  position: absolute;
+  top: -100%;
+  transition: all .3s ease-in-out;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.top-card.postion-relative {
+  position: relative;
+  overflow: hidden;
+}
+.card.my-2.over-hover:hover .overlay2 {
+  /* top: 0; */
+}
+
+
+
+
+
+
+
+/* 
+ul li a {
+    color: #999;
+    transition: 1s;
+    -webkit-animation: item-hover-off 1s;
+    -moz-animation: item-hover-off 1s;
+    animation: item-hover-off 1s;
+}
+
+ul li a:hover {
+    color: black;
+    cursor: pointer;
+    -webkit-animation: item-hover 1s;
+    -moz-animation: item-hover 1s;
+    animation: item-hover 1s;
+}
+
+@keyframes item-hover {
+    from {
+      color: #999;
+      }
+    to {
+      color: black;
+      }
+} */
+
+
+
+
+
+
+
+
+
+.overlay2 ul {
+  color: #fff;
+  padding: 10px 9px;
+}
+
+.overlay2 ul li {
+  list-style: none;
+}
+
+
+.card-text {
+  height: 36px;
+  font-size: 12px;
+  color: #50596c;
+  font-family: AJannatLT;
+  overflow: hidden;
+}
+
+
+.more-submite a {
+  background-color: transparent;
+  color: #0b0e30;
+  border-radius: 15px;
+  border: 1px solid #423380;
+  transition: all .2s ease-in-out;
+}
+
+.more-submite a:hover {
+  background-color: #423380;
+  color: #fff;
+}
+
+.more-submite a:focus {
+  box-shadow: none !important;
+  background-color: #423380 !important;
+}
+
+.more-submite a:active {
+  background-color: #423380 !important;
+
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px 0 hsl(0deg 0% 76% / 32%), -1px -1px 15px 0 hsl(0deg 0% 76% / 53%);
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.line-horizintal p {
+  height: 1px;
+  background-color: #1a506b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ======================================== end courses ========================================= --> */
+
+
+/* <!-- ======================================== start features ========================================= --> */
+
+
+.features {
+  background-image: url(../img/features.9d6ab23a.png);
+  position: relative;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.features .overlay {
+  background-color: rgba(8, 44, 62, .8901960784313725);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.our-feature {
+  z-index: 1000;
+  position: relative;
+}
+
+.feature h2 {
+  font-size: 32px;
+  line-height: 24px;
+  color: #fff;
+  font-family: AJannatLT;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ======================================== end features ========================================= --> */
+
+
+
+/* <!-- ======================================== start carousel ========================================= --> */
+
+
+
+
+
+
+.lap-cars {
+  font-family: AJannatLT;
+}
+
+.lap-cars h3 {
+  font-weight: 700 !important;
+}
+
+.lap-cars p {
+  font-size: 15px;
+  color: #50596c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ======================================== end carousel ========================================= --> */
+
+
+
+
+/* <!-- ======================================== start notification ========================================= --> */
+
+
+
+
+.notification {
+  padding: 5rem 0 2rem;
+  background: hsla(0, 0%, 86.7%, .3686274509803922);
+  font-family: AJannatLT;
+}
+
+
+
+.phon-add {
+  width: 300px;
+  height: 45px;
+  background-color: #fff !important;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: block;
+  box-shadow: 1px 1px 15px 0 hsl(0deg 0% 76% / 32%), -1px -1px 15px 0 hsl(0deg 0% 76% / 32%);
+}
+
+
+
+
+
+
+
+/* <!-- ======================================== end notification ========================================= --> */
+
+
+
+/* <!-- ======================================== start footer ========================================= --> */
+
+
+.footer-end-page {
+  background-color: #1a506b;
+}
+
+.copy-right {
+  background-color: #0f3c53;
+}
+
+.last-foot {
+  background-color: #0f3c53;
+  color: #fff;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2px;
+}
+
+.last-foot :nth-child(2) {
+  text-align: center;
+}
+
+
+.Yaseen {
+  color: #fff;
+  text-decoration: none !important;
+}
+
+.first-list li {
+  list-style: none;
+}
+
+.first-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.list-support {
+  list-style: none;
+}
+
+.list-support a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.first-list {
+  border-right: 2px solid #fff;
+  padding-right: 23px;
+}
+
+
+
+/* <!-- ======================================== end footer ========================================= --> */
+
+
+
+/* <!-- ======================================== start media ========================================= --> */
+
+
+
+@media (min-width: 375px) and (max-width: 991.5px) {
+  .sochial {
+    text-align: center;
+    justify-content: center;
+    margin: 0 !important;
+  }
+
+  .item-nav {
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 375px) and (max-width: 767.5px) {
+  .book-featur {
+    display: block !important;
+  }
+
+  .book-featur :nth-child(1) {
+    text-align: center !important;
+  }
+
+  .book-featur :nth-child(2) {
+    text-align: center;
+    margin-top: 3rem !important;
+  }
+
+  .feature {
+    margin: 1rem 0 !important;
+  }
+
+  .lap-img {
+    text-align: center !important;
+  }
+
+  .learn-me {
+    text-align: center !important;
+  }
+
+  .acount-sochial {
+    padding-left: 0 !important;
+  }
+
+  .last-foot {
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* <!-- ======================================== end media ========================================= --> */
